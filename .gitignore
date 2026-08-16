@@ -1,0 +1,30 @@
+# --- Secrets / credentials: never commit ---
+.env
+credentials.json
+token.json
+*.key
+secrets.*
+
+# --- Database + WAL companions ---
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# --- Exports ---
+*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
